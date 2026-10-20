@@ -37,7 +37,7 @@ Vertical 9:16 candid smartphone photo inside a busy indoor gymnastics competitio
 Start frame: Step 0 image
 
 ```
-Vertical 9:16 handheld smartphone video, slight natural camera shake, eye-level medium shot. Indoor gymnastics competition hall, folding chairs, blue banners, people walking in the blurred background. The woman behind the seated girl pulls the black comb through the frizzy tangled brown hair; the comb snags hard. The girl scrunches her face, squeezes her eyes shut and whines, shoulders hunched. The woman winces, tugs again, then lets out a frustrated sigh and looks toward camera helplessly. Gold medal sways on the girl's chest. Realistic, candid, real-time speed, no text.
+Vertical 9:16 handheld smartphone video, slight natural camera shake, eye-level medium shot. Indoor gymnastics competition hall, folding chairs, blue banners, people walking in the blurred background. The woman behind the seated girl pulls the black comb through the frizzy tangled brown hair; the comb gets stuck in a tangle. The girl pouts, rolls her eyes and slumps impatiently in the chair, clearly bored of waiting. The woman tries again, then lets out a frustrated sigh and looks toward camera helplessly. Gold medal sways on the girl's chest. Realistic, candid, real-time speed, no text.
 ```
 
 ## CLIP 2 — Dad to the rescue (0:05–0:10)
