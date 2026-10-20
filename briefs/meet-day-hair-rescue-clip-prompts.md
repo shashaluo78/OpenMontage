@@ -2,7 +2,9 @@
 
 This replaces all earlier versions.
 
-Vertical 9:16 · about 28 seconds · 7 video clips (3 story + 4 demos)
+Vertical 9:16 · about 30 seconds · 6 video clips (3 story + 3 demos)
+
+> **Update (fal.ai production):** Demo 7 is cut. All images are final (supplied by the user, saved in `projects/meet-day-hair-rescue/assets/images/`). The Demo 4 and Demo 6 prompts below were reworded to match the final start frames: Demo 4 uses her own hand, Demo 6 uses a stylist's gloved hands.
 
 ---
 
@@ -22,10 +24,10 @@ Vertical 9:16 · about 28 seconds · 7 video clips (3 story + 4 demos)
 
 | # | Save as | Upload these | Prompt |
 |---|---|---|---|
-| 1 | `demo7_after.png` (replaces old one) | `demo5_after.png` | **Prompt A** |
+| ~~1~~ | ~~`demo7_after.png`~~ (cut: Demo 7 dropped) | | |
 | 2 | `demo4_start.png` | `demo4_before.png` + `brush.png` | **Prompt B** |
 | 3 | `demo5_start.png` | `demo5_before.png` + `brush.png` | **Prompt B** |
-| 4 | `demo7_start.png` | `demo5_after.png` + `brush.png` | **Prompt B** |
+| ~~4~~ | ~~`demo7_start.png`~~ (cut: Demo 7 dropped) | | |
 | 5 | `demo6_start.png` | `demo6_before.png` + `brush.png` | **Prompt C** |
 
 When uploading two images, upload the before/after image FIRST and `brush.png` SECOND.
@@ -61,10 +63,9 @@ Settings for every clip: **MiniMax H3** · **Start/End Frame** · **768p** · **
 | 1 | `clip1.mp4` | `start.png` | (empty) | **Clip 1** |
 | 2 | `clip2.mp4` | last frame of clip1 | (empty) | **Clip 2** |
 | 3 | `clip3.mp4` | last frame of clip2 | (empty) | **Clip 3** |
-| 4 | `demo4.mp4` | `demo4_start.png` | `demo4_after.png` | **Demo 4 & 5** |
-| 5 | `demo5.mp4` | `demo5_start.png` | `demo5_after.png` | **Demo 4 & 5** |
+| 4 | `demo4.mp4` | `demo4_start.png` | `demo4_after.png` | **Demo 4** |
+| 5 | `demo5.mp4` | `demo5_start.png` | `demo5_after.png` | **Demo 5** |
 | 6 | `demo6.mp4` | `demo6_start.png` | `demo6_after.png` | **Demo 6** |
-| 7 | `demo7.mp4` | `demo7_start.png` | `demo7_after.png` (new) | **Demo 7** |
 
 To get a "last frame", play the clip to the very end, pause it and take a screenshot. Crop the screenshot to just the video.
 
@@ -83,19 +84,19 @@ Vertical handheld smartphone video, eye-level medium close-up. The man in the de
 Vertical handheld smartphone video, eye-level medium shot, the camera follows the action slightly. The girl's long brown hair is now completely sleek, straight and shiny, falling past her shoulders. The woman covers her mouth with both hands in happy surprise. The girl runs her fingers through her smooth hair, breaks into a huge grin, hops up from the folding chair and skips off toward her teammates in the background, hair swinging, pink backpack bouncing and medal flashing. The man smiles proudly and gives the cream brush a little wave. Bright gymnastics competition hall, realistic, candid, no text. Audio: natural indoor crowd ambience only, no speech, no music.
 ```
 
-**Demo 4 & 5** (same prompt for both)
+**Demo 4** (her own hand)
+```
+Vertical close-up from behind. Her own hand reaches back and slowly pulls the cream oval brush straight down from just under the claw clip through the centre of her hair to the ends, in one smooth stroke. Only the hair the brush passes turns sleek, straight and glossy; the clip, the hair above it and the hair on either side stay exactly as they are. At the end she lowers her arm and the brush out of frame. Steady camera, soft salon lighting, realistic hair, satisfying. Audio: soft brushing sound only, no speech, no music.
+```
+
+**Demo 5** (stylist's gloved hand)
 ```
 Vertical close-up from behind. A stylist's black-gloved hand slowly pulls the cream oval brush straight down from just under the claw clip through the centre of her hair to the ends, in one smooth stroke. Only the hair the brush passes turns sleek, straight and glossy; the clip, the hair above it and the hair on either side stay exactly as they are. At the end the hand lifts the brush out of frame. Steady camera, soft salon lighting, realistic hair, satisfying. Audio: soft brushing sound only, no speech, no music.
 ```
 
-**Demo 6**
+**Demo 6** (stylist's gloved hands)
 ```
-Vertical three-quarter side view. The woman pulls the cream oval brush slowly down the side of her hair nearest the camera, from the roots to the ends. That half turns sleek, straight and glossy while the far half stays wavy. She lowers the brush out of frame, touches the smooth hair and gives a small impressed smile. Steady camera, soft salon lighting, realistic. Audio: soft brushing sound only, no speech, no music.
-```
-
-**Demo 7**
-```
-Vertical shot from behind. A stylist's black-gloved hand removes the claw clip, letting the top of her hair fall, then quickly brushes the cream oval brush down through her hair section by section, from the roots to the ends, until all of her hair is sleek, straight and glossy. The hand lifts the brush out of frame and she gives her head a gentle shake so the long straight hair swishes and settles flat over her orange sweater. Steady camera, soft salon lighting, realistic. Audio: soft brushing sound only, no speech, no music.
+Vertical three-quarter side view. A stylist's black-gloved hand slowly pulls the cream oval brush from the crown down the side of her hair nearest the camera to the ends, while the stylist's other gloved hand smooths the section. Only that section turns sleek, straight and glossy; the rest of her hair stays wavy. The stroke finishes with the brush near the ends of her hair. She stays seated and still, looking down calmly. Steady camera, soft salon lighting, realistic. Audio: soft brushing sound only, no speech, no music.
 ```
 
 ---
@@ -104,6 +105,6 @@ Vertical shot from behind. A stylist's black-gloved hand removes the claw clip, 
 
 https://github.com/shashaluo78/OpenMontage/upload/claude/nice-keller-7yqfpa
 
-Upload: `clip1.mp4` `clip2.mp4` `clip3.mp4` `demo4.mp4` `demo5.mp4` `demo6.mp4` `demo7.mp4`
+Upload: `clip1.mp4` `clip2.mp4` `clip3.mp4` `demo4.mp4` `demo5.mp4` `demo6.mp4`
 
-Final order in the edit: clip1 → clip2 → clip3 → demo4 → demo5 → demo6 → demo7
+Final order in the edit: clip1 → clip2 → clip3 → demo4 → demo5 → demo6
