@@ -156,3 +156,52 @@ Edit this image. Make ALL of her hair perfectly sleek, straight and mirror-gloss
 ## Files to send back
 
 `clip1.mp4` `clip2.mp4` `clip3.mp4`, `brush.png`, `demo4_before.png` `demo4_after.png` `demo5_before.png` `demo5_after.png` `demo6_before.png` `demo6_after.png` `demo7_after.png`
+
+---
+
+# DEMO SHOTS v2: real hands brushing (Hailuo Start/End Frame)
+
+Each woman brushes her own hair with the cream brush. Hailuo animates from a START image (brush in her hand at the roots) to an END image (the existing *_after.png, hair done, brush gone).
+
+## A. Fix demo7_after.png (the clothes changed)
+
+Upload `demo5_after.png`. Save the result over `demo7_after.png`.
+```
+Edit this photo. Keep her orange sweater, the framing, the lighting and the background exactly the same. Do not add a cape and do not change any clothing. Remove the claw clip and make ALL of her hair perfectly sleek, straight and glossy, falling smoothly down her back over the orange sweater. Portrait 9:16.
+```
+
+## B. Start images (upload the "before" image AND brush.png)
+
+demo4_start.png (upload demo4_before.png + brush.png)
+```
+Edit the first photo. Add the woman's own right hand and forearm reaching up behind her head, holding the brush from the second image (same cream oval brush with silver-outlined back panel and yellow end cap). The bristles press into the hair at the roots just under the claw clip, on the centre part, with the back of the brush facing the camera. Keep her hair, clothes, framing, lighting and background exactly the same. Portrait 9:16, photorealistic.
+```
+demo5_start.png (upload demo5_before.png + brush.png): same prompt as demo4_start.
+
+demo6_start.png (upload demo6_before.png + brush.png)
+```
+Edit the first photo. Her own hand comes up from under the black salon cape, holding the brush from the second image (same cream oval brush with yellow end cap), placed at the roots on the side of her hair nearest the camera, ready to brush down. Keep her face, hair, cape, framing, lighting and background exactly the same. Portrait 9:16, photorealistic.
+```
+demo7_start.png (upload demo5_after.png + brush.png): same prompt as demo4_start.
+
+## C. Hailuo clips: MiniMax H3, Start/End Frame, 768p, 5s
+
+| Clip | Start Frame | End Frame | Save as |
+|---|---|---|---|
+| Demo 4 | demo4_start.png | demo4_after.png | demo4.mp4 |
+| Demo 5 | demo5_start.png | demo5_after.png | demo5.mp4 |
+| Demo 6 | demo6_start.png | demo6_after.png | demo6.mp4 |
+| Demo 7 | demo7_start.png | demo7_after.png (fixed) | demo7.mp4 |
+
+Demo 4 and 5 prompt:
+```
+Vertical close-up from behind. The woman slowly pulls the cream oval brush straight down through her hair along the centre, from the roots to the ends, in one smooth stroke. Wherever the brush passes, the hair turns sleek, straight and glossy, while the hair on either side stays as it is. At the end she lowers the brush out of frame. Steady camera, soft salon lighting, realistic hair, satisfying. Audio: soft brushing sound only, no speech, no music.
+```
+Demo 6 prompt:
+```
+Vertical three-quarter side view. The woman pulls the cream oval brush slowly down the side of her hair nearest the camera, from the roots to the ends. That half turns sleek, straight and glossy while the far half stays wavy. She lowers the brush out of frame, touches the smooth hair and gives a small impressed smile. Steady camera, soft salon lighting, realistic. Audio: soft brushing sound only, no speech, no music.
+```
+Demo 7 prompt:
+```
+Vertical shot from behind. The woman quickly brushes the cream oval brush down through her hair section by section, from the roots to the ends, until all of her hair is sleek, straight and glossy. She lowers the brush out of frame and gives her head a gentle shake so the long straight hair swishes and settles flat. Steady camera, soft salon lighting, realistic. Audio: soft brushing sound only, no speech, no music.
+```
