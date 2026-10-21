@@ -56,6 +56,9 @@ Edit the first photo. Keep the exact same framing as the original; do not zoom i
 
 ## PART 2 — Video checklist (Hailuo)
 
+> **Update:** Clip 2 is cut. Clip 3 is the user's Hailuo render (start frame `clip2_start.jpg`, Clip 3 prompt below), watermark removed with ffmpeg delogo. Edit order: clip1 → clip3 → demo4 → demo5 → demo6.
+
+
 Settings for every clip: **MiniMax H3** · **Start/End Frame** · **768p** · **5s** · aspect ratio **Auto**
 
 | # | Save as | Start Frame | End Frame | Prompt |
@@ -107,4 +110,4 @@ https://github.com/shashaluo78/OpenMontage/upload/claude/nice-keller-7yqfpa
 
 Upload: `clip1.mp4` `clip2.mp4` `clip3.mp4` `demo4.mp4` `demo5.mp4` `demo6.mp4`
 
-Final order in the edit: clip1 → clip2 → clip3 → demo4 → demo5 → demo6
+Final order in the edit: clip1 → clip3 → demo4 → demo5 → demo6
