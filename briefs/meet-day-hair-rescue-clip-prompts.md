@@ -61,7 +61,7 @@ Settings for every clip: **MiniMax H3** · **Start/End Frame** · **768p** · **
 | # | Save as | Start Frame | End Frame | Prompt |
 |---|---|---|---|---|
 | 1 | `clip1.mp4` | `start.png` | (empty) | **Clip 1** |
-| 2 | `clip2.mp4` | last frame of clip1 | (empty) | **Clip 2** |
+| 2 | `clip2.mp4` | `clip2_start.jpg` | `clip2_end.jpg` | **Clip 2** |
 | 3 | `clip3.mp4` | last frame of clip2 | (empty) | **Clip 3** |
 | 4 | `demo4.mp4` | `demo4_start.png` | `demo4_after.png` | **Demo 4** |
 | 5 | `demo5.mp4` | `demo5_start.png` | `demo5_after.png` | **Demo 5** |
@@ -74,9 +74,9 @@ To get a "last frame", play the clip to the very end, pause it and take a screen
 Vertical handheld smartphone video, slight natural camera shake, eye-level medium shot. Indoor gymnastics competition hall with folding chairs, blue banners and people walking in the blurred background. The woman behind the seated girl works the black comb through the girl's frizzy, tangled brown hair, and the comb gets stuck in a tangle. The girl pouts, rolls her eyes and slumps impatiently in the chair, clearly bored of waiting. The woman tries again, then sighs and looks toward the camera helplessly. The man beside them watches with a small knowing smile. Realistic, candid, real-time speed, no text. Audio: natural indoor crowd ambience only, no speech, no music.
 ```
 
-**Clip 2**
+**Clip 2** (start frame: `clip2_start.jpg`, dad already holding the brush; end frame: `clip2_end.jpg`, one sleek stripe)
 ```
-Vertical handheld smartphone video, eye-level medium close-up. The man in the denim shirt steps in holding a cream-coloured oval hair brush with a slim cream handle and a yellow end cap. He holds it up toward the camera with a confident little smile, then places it at the top of the girl's head and pulls it slowly down through her frizzy brown hair in one smooth stroke. Wherever the brush passes, the hair turns smooth, straight and glossy, leaving a clear sleek stripe through the frizz. The woman leans in, eyebrows raised in disbelief, and the girl looks up curiously. Gymnastics hall background, realistic, candid, no text. Audio: natural indoor crowd ambience only, no speech, no music.
+Vertical handheld smartphone video, eye-level medium shot. The camera holds the same distance for the whole clip: no zoom, no push-in, and all three faces stay fully in frame. Indoor gymnastics competition hall with blue banners and people walking in the blurred background, bright even overhead lighting. The girl sits on the black folding chair in her blue sparkly leotard, pink backpack and gold medal, with her lavender headband on her head. The lavender headband stays on her head and clearly visible for the entire clip. The man in the denim shirt holds the brush already resting on top of her head: a cream-coloured oval paddle brush whose back is smooth cream with a silver-outlined oval panel, a small round cream button and a silver oval ring, on a slim cream handle with a small yellow end cap. The brush head is entirely cream with no yellow on it. With a confident little smile he pulls the brush slowly down through the frizzy hair on his side, from the top of her head down past her shoulder, in one smooth stroke, holding it by the handle with the back of the brush facing the camera. Only the strip of hair the brush touches turns smooth, straight and glossy, leaving one clear sleek stripe about the width of the brush through the frizz. All the rest of her hair stays frizzy and tangled. The woman stops combing, lowers the comb and leans in slightly with her eyebrows raised in disbelief. The girl's wince relaxes and she glances sideways with curious wide eyes. Realistic, candid, real-time speed, no text. Audio: natural indoor crowd ambience only, no speech, no music.
 ```
 
 **Clip 3**
