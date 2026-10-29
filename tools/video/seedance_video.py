@@ -313,18 +313,14 @@ class SeedanceVideo(BaseTool):
                     success=False,
                     error=f"Seedance {model_version} reference_to_video accepts at most {max_audios} reference audio clips; got {len(ref_audio_urls)}",
                 )
+            # fal's Seedance 2.0 and 2.5 reference endpoints both name these
+            # image_urls / video_urls / audio_urls.
             if ref_image_urls:
-                payload[
-                    "image_urls" if model_version == "2.5" else "reference_image_urls"
-                ] = ref_image_urls
+                payload["image_urls"] = ref_image_urls
             if ref_video_urls:
-                payload[
-                    "video_urls" if model_version == "2.5" else "reference_video_urls"
-                ] = ref_video_urls
+                payload["video_urls"] = ref_video_urls
             if ref_audio_urls:
-                payload[
-                    "audio_urls" if model_version == "2.5" else "reference_audio_urls"
-                ] = ref_audio_urls
+                payload["audio_urls"] = ref_audio_urls
 
         headers = {
             "Authorization": f"Key {api_key}",

@@ -71,6 +71,31 @@ def test_fal_seedance_25_uses_current_endpoint_and_reference_fields(
     assert payload["duration"] == "30"
 
 
+def test_fal_seedance_20_reference_fields_match_fal_schema(monkeypatch, tmp_path):
+    from tools.video.seedance_video import SeedanceVideo
+
+    monkeypatch.setenv("FAL_KEY", "test")
+    calls = _queue_mocks(monkeypatch)
+    result = SeedanceVideo().execute(
+        {
+            "prompt": "Use @Image1 as the hero",
+            "operation": "reference_to_video",
+            "duration": "15",
+            "reference_image_urls": ["https://image"],
+            "reference_video_urls": ["https://motion"],
+            "reference_audio_urls": ["https://voice"],
+            "output_path": str(tmp_path / "seedance20.mp4"),
+        }
+    )
+    assert result.success, result.error
+    url, payload = calls["posts"][0]
+    assert url.endswith("/bytedance/seedance-2.0/reference-to-video")
+    assert payload["image_urls"] == ["https://image"]
+    assert payload["video_urls"] == ["https://motion"]
+    assert payload["audio_urls"] == ["https://voice"]
+    assert "reference_image_urls" not in payload
+
+
 def test_fal_gemini_omni_and_minimax_h3_are_discovered_and_submit(
     monkeypatch, tmp_path
 ):
